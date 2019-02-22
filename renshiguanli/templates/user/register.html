@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/main.css">
+
+</head>
+<body background="/static/images/bgpicture.jpg" style=" background-repeat:no-repeat;background-size:100% 100%;background-attachment: fixed;">
+
+<div class="r_con fr">
+        <div class="reg_title clearfix">
+            <h1>用户注册</h1>
+            <a class="login" style="width:85px;" href="/templates/user/login.html" target="_blank">登录</a>
+        </div>
+        <div class="reg_form clearfix">
+            <form>
+                <ul>
+                    <li>
+                        <label>用户名:</label>
+                        <input type="text" name="user_name" id="username">
+                    </li>
+                    <li>
+                        <label>密码:</label>
+                        <input type="password" name="pwd" id="pwd">
+                    </li>
+                    <li>
+                        <label>邮箱:</label>
+                        <input type="text" name="phoneNo" id="phoneNo">
+                    </li>
+                    <li>
+                        <label>验证码</label>
+                        <input type="text" name="yzm" id="yzm" style="width: 205px">
+                        <input type="button" value="发送" id="btnyzm">
+                    </li>
+
+                    <li class="reg_sub">
+                        <input type="button" value="注 册" name="" id="btnregister">
+                    </li>
+
+                </ul>
+                <label id="msg"></label>
+            </form>
+        </div>
+
+    </div>
+</body>
+</html>
